@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Desktop */
+@media (min-width: 1025px){
+    .logo__header {
+        margin-top: 35px;
+
+    }
+
+    .title__home {
+        width: 720px;
+        height: 200px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+/* Tablets  */
+@media (max-width: 1024px){
+    .logo__header {
+        margin-top: 30px;
+
+    }
+
+    .title__home {
+        margin-top: 90px;
+        margin-bottom: 25px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 79px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+/* Celulares */
+@media (max-width: 544px){
+    .logo__header {
+        margin-top: 20px;
+
+    }
+    .title__home {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

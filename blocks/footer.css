@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Desktop */
+@media (min-width: 1025px){
+    .footer__author {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}
+/* Tablets  */
+@media (max-width: 1024px){
+    .footer__author {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}
+
+/* Celulares */
+@media (max-width: 544px){
+    .footer__author {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+}
