@@ -48,6 +48,31 @@
         line-height: 163%;
         color: #FFFFFF;
     }
+    .lead__title {
+        /* width: 720px;
+        height: 200px; */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lead__home {
+        /* width: 720px;
+        height: 72px; */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lead__image {
+        width: 100%;
+    }
 }
 @media (max-width: 1024px){
     .intro__title{
@@ -85,6 +110,32 @@
         line-height: 163%;
         color: #FFFFFF;
     }
+    .lead__title {
+        margin-top: 90px;
+        margin-bottom: 25px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 79px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lead__home {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    } 
+    .lead__image{
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+
+    }
 }
 
 /* Celulares */
@@ -121,5 +172,28 @@
         font-size: 16px;
         line-height: 163%;
         color: #FFFFFF;
+    }
+    .lead__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lead__home {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lead__image{
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
     }
 }
