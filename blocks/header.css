@@ -5,13 +5,13 @@
     flex-direction: column;
 }
 /* Desktop */
-@media (min-width: 1025px){
+
     .header__logo {
         margin-top: 35px;
     }
 
 
-}
+
 
 /* Tablets  */
 @media (max-width: 1024px){

@@ -4,8 +4,15 @@
     justify-content: center;
     flex-direction: column;
 }
+.intro{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 /* Desktop */
-@media (min-width: 1025px){
+
     .intro__title {
         width: 830px;
         height: 173px;
@@ -73,7 +80,7 @@
     .lead__image {
         width: 100%;
     }
-}
+
 @media (max-width: 1024px){
     .intro__title{
         font-family: 'Inter';
