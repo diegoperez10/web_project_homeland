@@ -14,8 +14,7 @@
 /* Desktop */
 
     .intro__title {
-        width: 830px;
-        height: 173px;
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
@@ -24,8 +23,7 @@
         color: #FFFFFF;
     }
     .intro__subheading {
-        width: 738px;
-        height: 135px;
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -46,8 +44,7 @@
     }
     
     .intro__text {
-        width: 722px;
-        height: 181.54px;
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -56,8 +53,7 @@
         color: #FFFFFF;
     }
     .lead__title {
-        /* width: 720px;
-        height: 200px; */
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
@@ -67,8 +63,7 @@
         color: #FFFFFF;
     }
     .lead__home {
-        /* width: 720px;
-        height: 72px; */
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
