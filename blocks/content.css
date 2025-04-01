@@ -1,117 +1,39 @@
-.content{
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.intro{
-    width: 90vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 /* Desktop */
+.lead__title {
 
-    .intro__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 54px;
-        line-height: 58px;
-        color: #FFFFFF;
-    }
-    .intro__subheading {
+.lead__home {
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        color: #FFFFFF;
-    }
-    .intro__author {
-        display: flex;
-        justify-content: end;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        justify-content: end;
-        color: #FFFFFF;
-    }
-    
-    .intro__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
-    }
-    .lead__title {
+.lead__image {
+    width: 100%;
+}
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 96px;
-        line-height: 100px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .lead__home {
+@media (max-width: 1024px) {
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .lead__image {
-        width: 100%;
-    }
-
-@media (max-width: 1024px){
-    .intro__title{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 45px;
-        line-height: 49px;
-        color: #FFFFFF;
-    }
-    .intro__subheading{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        color: #FFFFFF;
-    }
-    .intro__author{
-        display: flex;
-        justify-content: end;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: right;
-        color: #FFFFFF;
-    }
-    .intro__text{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
-    }
     .lead__title {
         margin-top: 90px;
         margin-bottom: 25px;
@@ -123,6 +45,7 @@
         text-align: center;
         color: #FFFFFF;
     }
+
     .lead__home {
         font-family: 'Inter';
         font-style: normal;
@@ -131,8 +54,9 @@
         line-height: 36px;
         text-align: center;
         color: #FFFFFF;
-    } 
-    .lead__image{
+    }
+
+    .lead__image {
         margin-left: 0;
         padding: 0;
         width: 100%;
@@ -141,40 +65,8 @@
 }
 
 /* Celulares */
-@media (max-width: 544px){
-    .intro__title{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        color: #FFFFFF;
-    }
-    .intro__subheading{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
-        color: #FFFFFF;
-    }
-    .intro__author{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: right;
-        color: #FFFFFF;
-    }
-    .intro__text{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
-    }
+@media (max-width: 544px) {
+
     .lead__title {
         font-family: 'Inter';
         font-style: normal;
@@ -184,6 +76,7 @@
         text-align: center;
         color: #FFFFFF;
     }
+
     .lead__home {
         font-family: 'Inter';
         font-style: normal;
@@ -193,7 +86,8 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .lead__image{
+
+    .lead__image {
         margin-left: 0;
         padding: 0;
         width: 100%;
