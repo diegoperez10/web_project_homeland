@@ -1,0 +1,36 @@
+.photo-grid{
+    margin-top: 110px;
+}
+
+.photo-grid__container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.photo-grid__item {
+    flex-basis: 284px;
+    height: 213px;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        /* width: 720px; */
+    }
+    .photo-grid__container{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 16px;
+        margin: 24px auto;
+    }
+    .photo-grid__item {
+        flex-basis: 352px;
+        height: 213px;
+    }
+}
+
+@media (max-width: 544px){
+    
+}
