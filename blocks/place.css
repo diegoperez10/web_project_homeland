@@ -1,9 +1,9 @@
-.places{
+.places {
     margin-top: 88px;
     margin-bottom: 90px;
 }
 
-.place{
+.place {
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: auto 460px auto;
@@ -76,6 +76,11 @@
 
 .place__img {
     grid-area: img;
+
+}
+
+.place__img:hover {
+    opacity: 0.5;
 }
 
 .place__link {
@@ -92,6 +97,10 @@
     padding: 15px 20px;
     justify-self: start;
     align-self: center;
+}
+
+.place__link:hover {
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 
 @media (max-width: 1024px) {
