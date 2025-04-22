@@ -97,6 +97,8 @@
     padding: 15px 20px;
     justify-self: start;
     align-self: center;
+    text-decoration: none;
+
 }
 
 .place__link:hover {
